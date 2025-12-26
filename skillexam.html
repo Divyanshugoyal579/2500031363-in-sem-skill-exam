@@ -1,0 +1,148 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <!-- Important for responsive design -->
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+  <title>Nature Photography</title>
+
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+    }
+
+    body {
+      font-family: Arial, Helvetica, sans-serif;
+      background-color: #f4f6f5;
+      font-size: 16px;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: linear-gradient(135deg, #00e5ff, #00bcd4);
+      color: black;
+      text-align: center;
+      padding: 25px;
+    }
+
+    header h1 {
+      font-size: 2.2rem;
+    }
+
+    article {
+      max-width: 900px;
+      margin: 30px auto;
+      background-color: white;
+      padding: 20px;
+      border-radius: 14px;
+      box-shadow: 0 8px 25px rgba(0, 0, 0, 0.1);
+    }
+
+    /* Responsive image */
+    article img {
+      width: 100%;
+      height: auto;
+      border-radius: 12px;
+      margin-bottom: 20px;
+      display: block;
+    }
+
+    section {
+      margin-bottom: 20px;
+    }
+
+    section h2 {
+      color: #2e7d32;
+      margin-bottom: 10px;
+      font-size: 1.6rem;
+    }
+
+    section p {
+      text-align: justify;
+      font-size: 1rem;
+    }
+
+    footer {
+      text-align: center;
+      background-color: #222;
+      color: white;
+      padding: 15px;
+      margin-top: 30px;
+      font-size: 0.9rem;
+    }
+
+    /* Tablet and below */
+    @media (max-width: 768px) {
+      body {
+        font-size: 14px;
+      }
+
+      header {
+        padding: 20px 10px;
+      }
+
+      header h1 {
+        font-size: 1.6rem;
+      }
+
+      article {
+        margin: 15px;
+        padding: 15px;
+      }
+
+      section h2 {
+        font-size: 1.3rem;
+        text-align: center;
+      }
+
+      section p {
+        font-size: 0.95rem;
+      }
+
+      footer {
+        font-size: 0.85rem;
+        padding: 12px;
+      }
+    }
+
+    /* Very small phones */
+    @media (max-width: 480px) {
+      header h1 {
+        font-size: 1.4rem;
+      }
+
+      section h2 {
+        font-size: 1.1rem;
+      }
+
+      article {
+        margin: 10px;
+        padding: 12px;
+      }
+    }
+  </style>
+</head>
+
+<body>
+  <header>
+    <h1>Nature Photography</h1>
+  </header>
+
+  <article>
+    <img src="nature.jpg" alt="Nature landscape">
+
+    <section>
+      <h2>About Nature Photography</h2>
+      <p>Nature photography captures the beauty of the natural world.</p>
+    </section>
+  </article>
+
+  <footer>
+    <p>© 2025 Nature Blog</p>
+  </footer>
+</body>
+</html>
